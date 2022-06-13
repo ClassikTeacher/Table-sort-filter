@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(238, 238, 238);
+  
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+  background: #c7c571;
+}
+
+.table-container{
+  align-items: top;
+  justify-content: center;
+  background-color: #ccc;
+  min-width: 100%;
+  min-height: 88%;
+}
+
+.table{
+  min-width: 900px;
+  margin: auto;
+  height: 100%;
+  background: none;
+}
+
+.table tr{
+  background: none;
+  max-width: 100%;
+  height: 2rem;
+  box-shadow: 0 1px #888;
+}
+
+.table tr:nth-child(1){
+  
+  height: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0F6396;
+}
+
+.table tr:nth-child(1) td:nth-child(1) .table__title-column{
+  height: 100%;
+  min-width: 6.4rem;
+}
+
+.table__title-column{
+  background: none;
+}
+
+.table td{
+  min-width: 25%;
+  height: 2rem;
+  text-align: center;
+  background: none;
+ 
+}
+
+.table h2{
+  background: none;
+ 
+  text-align: center;
+}
+
+.table-container .filter-form{
+  max-width: 900px;
+  height: 4rem;
+  margin: auto;
+  background: none;
+ 
+  padding:  5px 10px;
+}
+
+.page__wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  color: #610063;
+  background: #ccc;
+}
+
+.page__wrapper .page{
+padding: 5px 10px;
+margin-right: 10px;
+margin: 5px 0;
+background: #fff;
+color: #610063;
+border: 1px solid #610063;
+cursor: pointer;
+}
+.page:hover{
+background: rgb(198, 213, 227);
+}
+
+.page.page__current{
+background-color: teal;
+color: #fff;
+}
